@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+} 
+    body {
+background: linear-gradient(45deg, #c4dffd, #c79c9c);
+}
+main {
+    background: rgb(247, 210, 216);
+    width: 800px;
+    max-width: 85%;
+    margin: 10px auto;
+    padding: 10px 20px;
+    box-shadow: 5px 5px 55px 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+h1 {
+    margin: auto;
+    color: rgb(63, 72, 82);
+}
+h2 {
+    margin-left: 20px;
+    color: rgb(107, 34, 62);
+}
+img {
+    width: 850px;
+    max-width: 95%;
+    height: 500px;
+    box-shadow: 0px 0px 15px 0px;
+    display: block;
+    margin: auto;
+}
+legend {
+    margin: auto;
+    font-size: large;
+}
+.form {
+    background: rgb(202, 100, 87);
+    border-color: black;
+    border-width: 3px;
+    border-style: double;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 10px;
+}
+#field {
+    background: rgb(206, 165, 153);
+    border-color: black;
+    border-width: 3px;
+    border-style: double;
+    border-radius: 10px;
+    margin: 10px;
+}
+.input {
+    margin: 3px 2px 3px 2px;
+    width: 300px;
+}
+button {
+    background: rgb(161, 187, 212);
+    color: rgb(0, 0, 0);
+    display: block;
+    margin: auto;
+    width: 100px;
+}
+button:hover {
+    color: rgb(107, 125, 141);
+    background: rgb(60, 70, 80);
+    color: white;
+}
+div {
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
